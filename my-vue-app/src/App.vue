@@ -3,6 +3,11 @@ import LinkWeather from './components/linkWeather.vue';
 import RightHead from './components/rightHead.vue';
 import PreviewTemp from './components/previewTemp.vue';
 import MiddleInf from './components/middleInf.vue';
+const data = {
+  elements: [
+   { title: 'Temp', image: '../public/temp.png' },
+  ]
+}
 </script>
 
 <template>
@@ -36,7 +41,7 @@ import MiddleInf from './components/middleInf.vue';
             14
           </div>
           <div class="text-middle">
-           text
+           textík
             </div>
         </div>
           <div class="blank">
@@ -51,7 +56,7 @@ import MiddleInf from './components/middleInf.vue';
      
         <div class="obr">
           <img
-            src="https://play-lh.googleusercontent.com/29fAV6TZJnKEmx-aeCM3ehOIbfv30ZB6E8lgycS2sDgzt_TKavB5TsCun4B7YhLN3Q">
+            src="temp.png">
         </div>
       </div>
     </div>
