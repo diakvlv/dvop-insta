@@ -1,15 +1,21 @@
 <script setup>
+
 import LinkWeather from './components/linkWeather.vue';
 import RightHead from './components/rightHead.vue';
 import PreviewTemp from './components/previewTemp.vue';
 import MiddleInf from './components/middleInf.vue';
-const data = {
-  elements: [
-   { title: 'Temp', image: '../public/temp.png' },
-  ]
-}
 </script>
+<script>
+import temp from '@/assets/temp.png';
 
+export default {
+  data() {
+    return {
+      image: temp,
+    };
+  },
+};
+</script>
 <template>
   <div class="wrapper">
     <div class="leftContainer">
