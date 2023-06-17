@@ -5,17 +5,6 @@ import RightHead from './components/rightHead.vue';
 import PreviewTemp from './components/previewTemp.vue';
 import MiddleInf from './components/middleInf.vue';
 </script>
-<script>
-import temp from '@/assets/temp.png';
-
-export default {
-  data() {
-    return {
-      image: temp,
-    };
-  },
-};
-</script>
 <template>
   <div class="wrapper">
     <div class="leftContainer">
@@ -39,30 +28,30 @@ export default {
             Gotham
           </div>
           <div class="text-left1">
-           text
+            1016hPa
             </div>
           </div>
           <div class="blank">
           <div class="tempBig">
-            14
+            14°
           </div>
           <div class="text-middle">
-           textík
+           Polojasno
             </div>
         </div>
           <div class="blank">
           <div class="text-right">
-            Monday8.00AM
+            Monday
           </div>
           <div class="text-right2">
-           text
+           20kph
             </div>
           </div>
         </div>
      
         <div class="obr">
           <img
-            src="temp.png">
+            src="../src/assets/temp.PNG">
         </div>
       </div>
     </div>
@@ -205,7 +194,6 @@ export default {
 }
 
 .obr {
-  width: 65%;
   height: 350px;
   border-radius: 40px;
 }
