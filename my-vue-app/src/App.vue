@@ -106,6 +106,10 @@ import MiddleInf from './components/middleInf.vue';
 </template>
 
 <style>
+*{
+  margin: 0;
+}
+
 .right{
   background-color: white;
 }
@@ -221,7 +225,7 @@ import MiddleInf from './components/middleInf.vue';
 }
 
 .middleContainer {
-  width: 59%;
+  width: 60%;
   background-color: white;
 }
 
