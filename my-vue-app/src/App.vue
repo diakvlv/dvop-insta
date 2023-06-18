@@ -195,6 +195,7 @@ import MiddleInf from './components/middleInf.vue';
   background-color: #303c54;
   border-radius: 20px;
   color:white;
+  max-height: fit-content;
 }
 
 .obr {
